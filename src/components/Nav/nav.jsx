@@ -5,7 +5,6 @@ export function Nav() {
     
     <>
     <nav>
-    
       <a href="">NBA</a>
       <a href="">Clubes</a>
       <a href="">Noticias</a>
