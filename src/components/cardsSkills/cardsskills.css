@@ -1,17 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Work+Sans:wght@500;700&display=swap');
 
-
-/* card skills */
 
 .container-cards-skills {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  display: flex;
 
 }
 
 .container-card {
-  max-width: 292px;
+  width: 24%;
   box-sizing: content-box;
   position: relative;
   display: flex;
@@ -22,14 +21,12 @@
 .card-title{
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
   background-color: black;
   color: white;
-  height: 85px;
+  height: 90px;
   width: 100%;
-  position: relative;
-  margin-top: 30px
+  border: 1px solid black
 }
 
 .number{
@@ -38,48 +35,68 @@
   justify-content: center;
   align-items: center;
   margin-left: 15px;
+  background-color: black;
+  height: 100%;
 }
-
 
 .title-number {
   font-size: 32px;
   font-weight: 700;
   font-family: 'Work Sans', sans-serif;
+  background-color: black;
 }
 
 .line-number{
   border-right: 1px solid orange;
   height: 40px;
-  margin-left: 5px;
+  margin-left: 1px;
 }
 
-.card-title-text{
-  line-height: 2px;
-  font-size: 20px;
-  font-weight: 500;
-  font-family: 'Work Sans', sans-serif;
-  margin-left: 10px;
+.player-name {
+  background-color: black;
+  margin-left: 3px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 2px;
+
 }
 
-.color-orange {
-  color: orange
+.orange-name {
+  background-color: black;
+  color: orange;
+  margin-bottom: 0;
+  font-size: 25px;
+
+ 
 }
 
-.card-image{
-  max-width: 292px;
-  position: relative;
-  height: 350px;
+.surname {
+  margin-top: 0;
+  background-color: black;
 }
 
-.card-image img {
+
+
+/* image */
+
+
+.foto-player {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  height: 50vh;
   position: relative;
-  z-index: -1;
+  z-index: 1;
+
 }
 
-/*** noneeee **/
+
+/* skills */
+
 .skills {
     display: none;
     margin-left: 10px;
@@ -87,7 +104,9 @@
     height: 85px;
     width: 100%;
     position: absolute;
+    z-index: 2;
     top: 280px;
+    background-color: transparent;
 }
 
 .skills-flex {
@@ -97,6 +116,7 @@
   align-items: center;
   width: 90%;
   border-bottom: 1px solid #C8C4CB;
+  background-color: transparent;
   
 }
 
@@ -105,6 +125,7 @@
   margin-top: 0;
   font-size: 16px;
   margin-left: 15px;
+  background-color: transparent;
 }
 
 .color-grey {
@@ -112,17 +133,19 @@
   font-weight: 500;
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
+  background-color: transparent;
 }
 
 .color-white{
-  color: #F9F9F9;
+  color: white;
   font-weight: 700;
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
+  background-color: transparent;
 }
 
 
 .container-card:hover .skills {
   display: block;
+  background-color: transparent;
 }
-
