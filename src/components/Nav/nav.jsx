@@ -1,24 +1,20 @@
 import "./nav.css"
 
-const Nav = () => {
+export function Nav() {
   return (
     
-     <nav>
-      <div class="nav-burguer">
-        <a>NBA</a>
-        <a>Burguer</a>
-      </div>
-      <div class="nav-menu">
-        <a><strong>NBA</strong></a>
-        <a>Clubes</a>
-        <a>Noticias</a>
-        <a>Jugadores</a>
-        <a>Contacto</a>
-      </div>
-    </nav>
-
+    <>
+    <nav>
+    
+      <a href="">NBA</a>
+      <a href="">Clubes</a>
+      <a href="">Noticias</a>
+      <a href="">Jugadores</a>
+      <a href="">Contacto</a>
+    
+  </nav>
+  </>
   
   );
 };
 
-export default Nav

@@ -1,12 +1,12 @@
 
+
 /* card skills */
 
-
 .container-cards-skills {
-  display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  display: flex;
 
 }
 

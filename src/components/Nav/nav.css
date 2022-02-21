@@ -1,21 +1,19 @@
 
-
-
-nav{
+nav {
   background-color: #1a1d29;
   margin-top: 0;
   padding: 10px;
- 
-}
-
-.nav-burguer{
-  display: none;
-}
-
-.nav-menu{
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
+
+nav a {
+  background-color:#1a1d29;
+  color: white;
+  text-decoration: none;
+}
+
+
+
