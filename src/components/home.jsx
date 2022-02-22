@@ -1,7 +1,7 @@
 import React from "react";
 import { Board } from "./Board/Board";
 import { Cardnews } from "./Cardnews/Cardnews";
-import {Nav} from "./Nav/nav"
+import {Nav} from "./Nav/Nav"
 import {Cardsplayer} from "./cardsSkills/cardsSkills"
 import "./home.css"
 
@@ -12,7 +12,7 @@ export function Home() {
 
         <div className="caja">
             <Nav />
-            <h1 className="prueba">Aca va a estar el Home</h1>
+            
             <Board />
             <Cardnews />
             <Cardsplayer />      
