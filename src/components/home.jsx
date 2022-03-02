@@ -3,7 +3,7 @@ import { Board } from "./Board/Board";
 import { Cardnews } from "./Cardnews/Cardnews";
 import {Nav} from "./Nav/Nav"
 import {Cardsplayer} from "./cardsSkills/cardsSkills"
-import {NewsFeaturesPublicity} from "./newsFeaturesPublicity/newsFeaturesPublicity.jsx"
+import {NewsFeaturesAdvertising} from "./newsFeaturesAdvertising/newsFeaturesAdvertising.jsx"
 import "./home.css"
 
 
@@ -13,7 +13,7 @@ export function Home() {
 
         <div className="caja">
             <Nav />
-            <NewsFeaturesPublicity />
+            <NewsFeaturesAdvertising />
             <Board />
             <Cardnews />
             <Cardsplayer />      
