@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
 
 .container-match {
-  width: 80%;
+  max-width: 1000px;
   height: 50vh;
   position: relative;
   display: flex;
