@@ -1,6 +1,8 @@
+
 import React from "react";
 import "./match.css"
 import Wallpaper from "./images/basketball-wallpaper-preview.jpg"
+
 
 
 
@@ -13,8 +15,8 @@ export function Match() {
      
       <div className="container-text">
         <p className="match-text">Equipo 1 VS Equipo 2</p> 
-        <p>Fecha</p>
-        <p>Stadium</p>
+        <p className="match-text">Fecha</p>
+        <p className="match-text">Stadium</p>
         <p className="coca">Coca - Cola</p> 
       </div>
       
