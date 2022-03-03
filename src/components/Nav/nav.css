@@ -1,8 +1,7 @@
 
 #hamnav {
   width: 100%;
-  background: #000;
-  margin-bottom: 30px
+  background:#10182f;
 }
 
 #hamitems { display: flex; }
@@ -13,7 +12,7 @@
   color: white;
   text-decoration: none;
   text-align: center;
-  background-color: #10182f; 
+  background-color: #10182f;
 }
 #hamitems a:hover { 
   background: orange;
