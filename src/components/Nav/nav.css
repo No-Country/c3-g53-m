@@ -1,18 +1,49 @@
 
-nav {
-  background-color: #1a1d29;
-  margin-top: 0;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+#hamnav {
+  width: 100%;
+  background: #000;
+  margin-bottom: 30px
 }
 
-nav a {
-  background-color:#1a1d29;
+#hamitems { display: flex; }
+#hamitems a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
   color: white;
   text-decoration: none;
+  text-align: center;
+  background-color: #10182f; 
 }
+#hamitems a:hover { 
+  background: orange;
+  color: #10182f;  }
 
 
+#hamnav label, #hamburger { display: none; }
+
+
+
+
+@media screen and (max-width: 768px){
+
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+ 
+
+  #hamnav label { 
+    display: inline-block; 
+    color:#10182f;
+    background: orange;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}

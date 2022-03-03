@@ -3,15 +3,20 @@ import "./nav.css"
 export function Nav() {
   return (
     
-    <>
-    <nav>
-      <a href="">NBA</a>
-      <a href="">Clubes</a>
-      <a href="">Noticias</a>
-      <a href="">Jugadores</a>
-      <a href="">Contacto</a>
+  <>
+    <nav id="hamnav">
+
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
     
-  </nav>
+
+      <div id="hamitems">
+        <a href="/">Equipos</a>
+        <a href="/">Jugadores</a>
+        <a href="/">Noticias</a>
+        <a href="/">Contacto</a>
+      </div>
+    </nav>
   </>
   
   );
