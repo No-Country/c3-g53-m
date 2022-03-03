@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+
+.container-match {
+  max-width: 80%;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+  background-color: transparent
+}
+
+.container-match img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.match-text {
+  z-index: 2;
+  color: white;
+  background-color: transparent;
+  margin-bottom: 50px
+}
+
+.container-text {
+  position: absolute;
+  background-color: transparent;
+  margin-right: 50px;
+  font-weight: bold
+}
+
+.coca {
+  font-family: 'Lobster', cursive;
+  z-index: 2;
+  color: white;
+  background-color: transparent;
+  font-size: 32px;
+  color: red !important;
+  margin-top: 70px
+}
