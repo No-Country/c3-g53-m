@@ -6,6 +6,7 @@ export function Nav() {
   <>
     <nav id="hamnav">
 
+  
       <label for="hamburger">&#9776;</label>
       <input type="checkbox" id="hamburger"/>
     
