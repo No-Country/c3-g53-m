@@ -1,0 +1,44 @@
+.news-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.half-class {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-news {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.small-news-picture {
+    height: 91px;
+    width: 131px;
+}
+
+.small-news-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: black;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.dateTime {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #74757D;
+}
