@@ -1,0 +1,48 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Back-End del Sistema Emprendedores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js ",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "bcryptjs": "^2.4.3",
+>>>>>>> users
+=======
+    "bcryptjs": "^2.4.3",
+>>>>>>> a59d8ebb61f1374e1c7b2dbf915f1cd75ac86c8e
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-busboy": "^8.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.5",
+    "multer": "^1.4.4",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leticiafunes/NoCountryBack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leticiafunes/NoCountryBack/issues"
+  },
+  "homepage": "https://github.com/leticiafunes/NoCountryBack#readme"
+}
