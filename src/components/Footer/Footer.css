@@ -22,10 +22,11 @@ p {
   height: 12rem;
   background: #272727;
   width: 50%;
-  margin-left: 8rem;
+  margin-left: 10rem;
   margin-top: 3rem;
   font-size: 1rem;
   height: auto;
+  text-align: left;
 }
 
 .container_list {
@@ -59,6 +60,7 @@ td {
   color: white;
   border: none;
   line-height: 1.5rem;
+  text-align: left;
 }
 
 ul {
@@ -71,3 +73,4 @@ hr {
   border: 1px solid white;
   margin-top: 1.5rem;
 }
+

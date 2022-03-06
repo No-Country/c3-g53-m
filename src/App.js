@@ -3,7 +3,7 @@ import { Routes, BrowserRouter, Route } from "react-router-dom";
 import { Home } from "./components/home.jsx";
 import { Login } from "./components/Login/login"
 import { Userprofile } from "./components/userprofile"
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route path="/user-profile" element= {<Userprofile />} />
         </Routes>    
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }

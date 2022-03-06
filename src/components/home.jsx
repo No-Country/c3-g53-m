@@ -5,6 +5,7 @@ import {Match} from "./Match/Match.jsx"
 import {Cardsplayer} from "./cardsSkills/cardsSkills"
 import {NewsFeaturesAdvertising} from "./newsFeaturesAdvertising/newsFeaturesAdvertising.jsx"
 import "./home.css"
+import Footer from "./Footer/Footer";
 
 export function Home() {
     return(
@@ -14,6 +15,7 @@ export function Home() {
             <Cardnews />
             <Match />
             <Cardsplayer />
+            <Footer />
         </div>
     )
 }
