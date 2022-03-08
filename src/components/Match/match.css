@@ -48,7 +48,7 @@
   color: white;
   background-color: transparent;
   font-size: 32px;
-  color: red !important;
+  color: #e11b22 !important;
   margin-top: 70px
 }
 
@@ -58,13 +58,21 @@
   color: white;
   background-color: transparent;
   font-size: 32px;
-  color: green !important;
+  color: #00953e !important;
 }
 
 @media screen and (max-width: 576px){
 
 .container-match {
   width: 300px;
+}
+
+.coca {
+  font-size: 20px;
+}
+
+.sprite {
+  font-size: 20px;
 }
 
 
