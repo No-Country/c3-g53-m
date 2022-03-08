@@ -160,3 +160,23 @@
   display: block;
   background-color: transparent;
 }
+
+@media screen and (max-width: 576px){
+
+.container-cards-skills{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.container-card {
+  width: 300px;
+  margin-bottom: 30px
+}
+
+
+
+}

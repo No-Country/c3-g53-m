@@ -51,3 +51,21 @@
   color: red !important;
   margin-top: 70px
 }
+
+.sprite {
+  font-family: 'Lobster', cursive;
+  z-index: 2;
+  color: white;
+  background-color: transparent;
+  font-size: 32px;
+  color: green !important;
+}
+
+@media screen and (max-width: 576px){
+
+.container-match {
+  width: 300px;
+}
+
+
+}

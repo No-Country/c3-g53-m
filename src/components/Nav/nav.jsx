@@ -18,6 +18,9 @@ export function Nav() {
         <a href="/">Contacto</a>
       </div>
     </nav>
+    <div>
+      
+    </div>
   </>
   
   );

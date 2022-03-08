@@ -18,6 +18,7 @@ export function Match() {
         <p className="match-text">Fecha</p>
         <p className="match-text">Stadium</p>
         <p className="coca">Coca - Cola</p> 
+        <p className="sprite">Sprite</p> 
       </div>
       
   </div>
