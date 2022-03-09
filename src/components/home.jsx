@@ -1,6 +1,7 @@
 import React from "react";
 import { Cardnews } from "./Cardnews/Cardnews";
 import {Nav} from "./Nav/nav.jsx"
+import { Board } from "./Board/Board.jsx";
 import {Match} from "./Match/Match.jsx"
 import {Cardsplayer} from "./cardsSkills/cardsSkills"
 import {NewsFeaturesAdvertising} from "./newsFeaturesAdvertising/newsFeaturesAdvertising.jsx"
@@ -13,6 +14,7 @@ export function Home() {
             <Nav />
             <NewsFeaturesAdvertising />
             <Cardnews />
+            <Board />
             <Match />
             <Cardsplayer />
             <Footer />
