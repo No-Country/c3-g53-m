@@ -57,6 +57,7 @@
   color: white;
   background-color: #35589A;
   font-family: 'Work Sans', sans-serif;
+  text-align: center
 }
 
 .text-nav p {
@@ -97,8 +98,11 @@
     
   .text-nav {
       text-align: center;
-      align-self: center
     }
+  
+  .text-nav h3 {
+    text-align: center
+  }
 
 
 }
