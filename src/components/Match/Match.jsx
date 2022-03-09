@@ -5,20 +5,32 @@ import Wallpaper from "./images/basketball-wallpaper-preview.jpg"
 
 export function Match() {
 
+  const url = "https://www.balldontlie.io/api/v1/games"
+
   const [equipo, setEquipo] = useState(null)
 
   useEffect(() => {
-    obtenerDatos()
+    Data()
   }, [])
 
-  const obtenerDatos = async () => {
-    const data = await fetch("www.balldontlie.io/api/v1/teams")
+  const Data = async () => {
+    await fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      console.log(data)
+      const responseJSON = data.json()
+      setEquipo(responseJSON)
+    })
+  }
+  
+
+  /*const obtenerDatos = async () => {
+    const data = await fetch("")
     const users = await data.json()
     setEquipo(users)
-    console.log(users)
-  }
+  }*/
 
-
+/*
   return (
     
 
@@ -32,12 +44,21 @@ export function Match() {
         <p className="coca">Coca - Cola</p> 
         <p className="sprite">Sprite</p> 
       </div>
-      
+    
   </div>
      
           
         
           
         
+  )*/
+
+  return(
+    <ul>
+      { !equipo ? "Cargando..." : 
+      equipo.map ((equipo, index) =>{
+        return <li>{equipo.home_team_score}</li>
+      })}
+    </ul>
   )
 }
