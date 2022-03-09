@@ -1,81 +1,45 @@
-import React, {useEffect, useLayoutEffect} from "react";
+import React, {useEffect, useState} from "react";
+import {Table} from "react-bootstrap"
 import "./Board.css"
 
-export function Board() {
-  return (
-    <div className="wrapper">
-    <h3>Temporada 2022-2023</h3>
-    <h3>Posiciones</h3>
-     <div className="row title">
-        <ul>
-        <p>Nº</p>
-          <p>Equipo</p>
-          <p>Jugados</p>
-          <p>Ganados</p>
-          <p>Perdidos</p>
-          <p>+/-</p>
-        </ul>
-      </div>
-
-      <section className="row-wrapper">
-        <div className="row nfl">
-          <ul>
-            <li>1</li>
-            <li>LNB</li>
-            <li>53</li>
-            <li>45</li>
-            <li>100</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="row-wrapper">
-        <div className="row nfl">
-          <ul>
-            <li>1</li>
-            <li>LNB</li>
-            <li>53</li>
-            <li>45</li>
-            <li>100</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="row-wrapper">
-        <div className="row nfl">
-          <ul>
-            <li>1</li>
-            <li>LNB</li>
-            <li>53</li>
-            <li>45</li>
-            <li>100</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="row-wrapper">
-        <div className="row nfl">
-          <ul>
-            <li>1</li>
-            <li>LNB</li>
-            <li>53</li>
-            <li>45</li>
-            <li>100</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="row-wrapper">
-        <div className="row nfl">
-          <ul>
-            <li>1</li>
-            <li>LNB</li>
-            <li>53</li>
-            <li>45</li>
-            <li>100</li>
-          </ul>
-        </div>
-      </section>
-   </div>
-  )
-}
+const Board = () => {
+    const apiKey = 'https://skyflocodes.github.io/NBAAPI/NBATEAMS.json';
+    const [teams, setTeams] = useState([]);
+   
+    useEffect(() => {
+      fetch(apiKey)
+      .then((res) => 
+        res.json())
+        .then((data) => {
+        setTeams(data);
+      });
+    }, []);
+  
+    return (
+      <div className="wrapper">
+      <h2>Franquicias NBA 2021-2022</h2>
+      <Table striped bordered hover variant="light">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Sigla</th>
+            <th>Apodo</th>
+            <th>Nombre</th>
+            <th>Títulos</th>
+          </tr>
+        </thead>
+        {teams.map((team, i) => (
+              <tbody className="text-dark">
+                <td>{team.teamId}</td>
+                <td>{team.abbreviation}</td>
+                <td>{team.name}</td>
+                <td>{team.location}</td>
+                <td>{team.chips}</td>
+              </tbody>
+              ))}
+      </Table>
+    </div>
+    );
+  }
+  
+export default Board;
