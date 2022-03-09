@@ -60,6 +60,12 @@
   font-size: 32px;
   color: #00953e !important;
 }
+ul {
+  color: white
+}
+li {
+  color: white
+}
 
 @media screen and (max-width: 576px){
 

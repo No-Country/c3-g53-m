@@ -49,20 +49,22 @@
   position: absolute;
   z-index: 3;
   font-family: 'Work Sans', sans-serif;
-  margin-left: 10px;
-  width: 300px
+  margin-left: 50px;
+  width: 330px
 }
 
 .text-nav h3 {
   color: white;
-  background-color: #35589A;
+  background-color: #4378DB;
   font-family: 'Work Sans', sans-serif;
-  text-align: center
+  text-align: center;
+  padding: 5px
 }
 
 .text-nav p {
-  background-color: #35589A;
+  background-color: #4378DB;
   font-family: 'Work Sans', sans-serif;
+  padding: 5px
 }
 
 
