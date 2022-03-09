@@ -1,4 +1,6 @@
 import "./nav.css"
+import navWall from "./images/nbabanner.jpg"
+
 
 export function Nav() {
   return (
@@ -18,9 +20,18 @@ export function Nav() {
         <a href="/">Contacto</a>
       </div>
     </nav>
-    <div>
+
+      <div className="container-news-nav">
+        <img src={navWall} alt="no-foto" />
+        <div className="text-nav">
+          <h3>NBA oficial fan page</h3>
+          <p>Encuentra todas las noticias sobre la NBA
+            y disfruta del contenido exclusivo para socios</p>
+        </div>
+      </div>
       
-    </div>
+      
+    
   </>
   
   );

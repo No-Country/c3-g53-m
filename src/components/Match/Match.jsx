@@ -12,9 +12,10 @@ export function Match() {
   }, [])
 
   const obtenerDatos = async () => {
-    const data = await fetch("")
+    const data = await fetch("www.balldontlie.io/api/v1/teams")
     const users = await data.json()
     setEquipo(users)
+    console.log(users)
   }
 
 
