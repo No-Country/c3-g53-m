@@ -5,29 +5,29 @@ const Footer = () => {
     <div id="contacto" className="container-footer">
       <hr/>
       <div className="container_text">
-        <p>Your natural candle made for <br /> your home and for your wellness.</p>
+        <p>NBA Fan Page <br /> Sentite cerca de tus heroes</p>
       </div>
       <div className="container_list">
         <table>
           <tr>
-            <th>Discovery</th>
-            <th>About</th>
-            <th>Info</th>
+            <th>Bienvenidos</th>
+            <th>Sobre nosotros</th>
+            <th>Informacion</th>
           </tr>
           <tr>
-            <td>New season</td>
-            <td>Help</td>
-            <td>Contact us</td>
+            <td>Temporada</td>
+            <td>Ayuda</td>
+            <td>Contactanos</td>
           </tr>
           <tr>
-            <td>Most searched</td>
+            <td>Buscanos</td>
             <td>Shipping</td>
-            <td>Privacies Policies</td>
+            <td>Politicas de privacidad</td>
           </tr>
           <tr>
-            <td>Most selled</td>
-            <td>Afillate</td>
-            <td>Terms y Conditions</td>
+            <td>Mas Vendido</td>
+            <td>Afiliate</td>
+            <td>Terminos y Condiciones</td>
           </tr>
         </table>
       </div>
