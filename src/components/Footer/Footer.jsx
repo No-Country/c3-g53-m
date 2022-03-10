@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="container">
+    <div className="container-footer">
       <hr/>
       <div className="container_text">
         <p>Your natural candle made for <br /> your home and for your wellness.</p>

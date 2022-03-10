@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
+import {useEffect, useState} from "react"
 import {Table} from "react-bootstrap"
 import "./Board.css"
 
