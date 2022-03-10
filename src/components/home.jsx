@@ -1,7 +1,7 @@
 import React from "react";
 import { Cardnews } from "./Cardnews/Cardnews";
 import {Nav} from "./Nav/nav.jsx"
-import Board from "./Board/board.jsx"
+import Board from "./Board/Board.jsx"
 
 import {Cardsplayer} from "./cardsSkills/cardsSkills"
 import {NewsFeaturesAdvertising} from "./newsFeaturesAdvertising/newsFeaturesAdvertising.jsx"
