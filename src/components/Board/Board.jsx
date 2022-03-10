@@ -19,7 +19,7 @@ const Board = () => {
     return (
       <div className="wrapper">
       <h2>Franquicias NBA 2021-2022</h2>
-      <Table striped bordered hover variant="light">
+      <Table id="equipos" striped bordered hover variant="light">
         <thead>
           <tr>
             <th></th>

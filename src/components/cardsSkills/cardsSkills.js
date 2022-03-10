@@ -10,7 +10,7 @@ export function Cardsplayer() {
    
   <div class="container-cards-skills">
 
-    <div class="container-card">
+    <div id="jugadores" class="container-card">
         <div class="card-title">
           <div class="number">
               <p class="title-number">11</p>

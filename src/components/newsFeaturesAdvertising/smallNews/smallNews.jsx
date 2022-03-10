@@ -3,7 +3,7 @@ import image from "./images/Josh-Hart.png"
 
 export function SmallNews() {
     return (
-        <div>
+        <div id="noticias">
             <div className="news-container">
                 <div className="half-news">
                     <div className="small-news">

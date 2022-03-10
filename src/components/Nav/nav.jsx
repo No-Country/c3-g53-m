@@ -1,6 +1,7 @@
 import "./nav.css";
 import navWall from "./images/nbabanner.jpg"
 
+import {  Link } from "react-router-dom";
 
 export function Nav() {
   return (
@@ -14,10 +15,10 @@ export function Nav() {
     
 
       <div id="hamitems">
-        <a href="/">Equipos</a>
-        <a href="/">Jugadores</a>
-        <a href="/">Noticias</a>
-        <a href="/">Contacto</a>
+        <a href="#equipos">Equipos</a>
+        <a href="#jugadores">Jugadores</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#contacto">Contacto</a>
       </div>
     </nav>
 
