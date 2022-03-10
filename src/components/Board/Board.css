@@ -3,8 +3,7 @@
     width: auto;
     margin: 3rem 8rem;
     height: auto;
-    /* background: #1a1d29; */
-}
+  }
 
 h2 {
  padding: 5px 0;
@@ -23,3 +22,9 @@ td {
   padding: 5px 0;
 }
 
+input {
+width: 25% !important;
+float: right;
+margin-right: 1rem;
+padding: 1rem 0;
+}
