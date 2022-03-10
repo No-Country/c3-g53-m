@@ -1,0 +1,41 @@
+
+.button-orange {
+  background-color: orange;
+  color: white;
+  border-radius: 15px;
+  width: 140px;
+  padding: 5px;
+  border:1px solid white;
+  margin-bottom: 20px
+}
+
+.button-orange:hover {
+  background-color: white;
+  color: orange;
+}
+
+.button-blue{
+  background-color: #4378DB;
+  color: white;
+  border-radius: 15px;
+  width: 140px;
+  padding: 5px;
+  border:1px solid white;
+  
+}
+
+.button-blue:hover {
+  background-color: white;
+  color: #10182f; 
+}
+
+.div-header {
+  background-color: #4378DB;
+  color: orange
+}
+
+.div-container-admin {
+  background-color: #10182f; 
+  padding: 50px;
+  border-radius: 5px
+}

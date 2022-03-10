@@ -1,8 +1,15 @@
 import './App.css';
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 import { Home } from "./components/home.jsx";
-import { Login } from "./components/Login/login"
+
 import { Userprofile } from "./components/userprofile"
+import { Cardnews } from "./components/Cardnews/Cardnews.jsx"
+
+import { LoginAdmin } from "./components/Back/Login/Login.jsx"
+import { SignUp } from "./components/Back/SignUp/SignUp.jsx"
+import { HomeAdmin } from "./components/Back/HomeAdmin/HomeAdmin.jsx"
+import { DataVisual } from "./components/Back/DataVisual/dataVisual.jsx"
+import { AdminNews } from "./components/Back/AdminNews/adminNews.jsx"
 // import Footer from './components/Footer/Footer';
 
 function App() {
@@ -11,9 +18,18 @@ function App() {
       <div className="App">
         <Routes>         
           <Route path="/" element= {<Home />} />
-          <Route path="/login" element= {<Login />} />
+       
           <Route path="/user-profile" element= {<Userprofile />} />
-        </Routes>    
+          <Route path="/noticias" element= {<Cardnews />} />
+
+          <Route path="/homeadmin" element= {<HomeAdmin />} />
+          <Route path="/loginadmin" element= {<LoginAdmin />} />
+          <Route path="/signup" element= {<SignUp />} />
+          <Route path="/datavisual" element= {<DataVisual />} />
+          <Route path="/adminnews" element= {<AdminNews />} />
+
+
+        </Routes>   
       </div>
       {/* <Footer /> */}
     </BrowserRouter>

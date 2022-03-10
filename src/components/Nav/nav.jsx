@@ -17,7 +17,7 @@ export function Nav() {
       <div id="hamitems">
         <a href="#equipos">Equipos</a>
         <a href="#jugadores">Jugadores</a>
-        <a href="#noticias">Noticias</a>
+        <Link to="/noticias">Noticias</Link>
         <a href="#contacto">Contacto</a>
       </div>
     </nav>

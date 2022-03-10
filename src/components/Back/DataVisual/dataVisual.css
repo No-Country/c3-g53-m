@@ -1,0 +1,51 @@
+
+
+.bg-darkblue {
+  background-color: #10182f; 
+  padding: 20px;
+}
+
+.title-table {
+  background-color:  #10182f; 
+  color: orange;
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.table-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.button-orange {
+  background-color: orange;
+  color: white;
+  border-radius: 15px;
+  width: 140px;
+  padding: 5px;
+  border:1px solid white;
+  margin-bottom: 20px;
+}
+
+.button-orange:hover {
+  background-color: white;
+  color: orange;
+}
+
+.button-blue{
+  background-color: #4378DB;
+  color: white;
+  border-radius: 15px;
+  width: 140px;
+  padding: 5px;
+  border:1px solid white;
+  
+}
+
+.button-blue:hover {
+  background-color: white;
+  color: #10182f; 
+}

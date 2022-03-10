@@ -1,0 +1,65 @@
+
+body {
+  background-color: #4378DB;
+}
+
+.text-orange {
+  color: orange;
+  font-size: 20px;
+  background-color: #4378DB;
+}
+
+.form-signin {
+  margin-top: 50px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.div-header {
+  color: #10182f;;
+}
+
+.container-login-adm {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #10182f; 
+  padding: 35px
+}
+
+.remember {
+  color: white;
+  background-color: #10182f; 
+}
+
+.form-floating {
+  margin-bottom: 20px
+}
+
+.button-orange {
+  background-color: orange;
+  color: white;
+  border-radius: 15px;
+  width: 140px;
+  padding: 5px;
+  border:1px solid white;
+  margin-bottom: 20px
+}
+
+.button-orange:hover {
+  background-color: white;
+  color: orange;
+}
+
+.button-blue{
+  background-color: #4378DB;
+  color: white;
+  border-radius: 15px;
+  width: 140px;
+  padding: 5px;
+  border:1px solid white;
+  
+}
+
+.button-blue:hover {
+  background-color: white;
+  color: #10182f; 
+}
