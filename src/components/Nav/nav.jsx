@@ -18,7 +18,7 @@ export function Nav() {
         <a href="#equipos">Equipos</a>
         <a href="#jugadores">Jugadores</a>
         <a href="#noticias">Noticias</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#concato">Contacto</a>
       </div>
     </nav>
 
