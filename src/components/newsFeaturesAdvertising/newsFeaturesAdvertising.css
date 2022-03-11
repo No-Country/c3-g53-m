@@ -8,8 +8,24 @@
     height: auto;
 }
 
+.container-add {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid orange
+}
+
+
 .jordan {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-add .jordan:hover {
+    width: 350px
 }
 
 .last-news {

@@ -12,9 +12,17 @@ export function NewsFeaturesAdvertising() {
                 <SmallNews />
             </div>
             <div className="features-advertising">
-                <img className="jordan" src={Jordan2} alt="no-foto" />
-                <img src={Jordan} alt="no-foto" />
+                <div className="container-add">
+                    <img className="jordan" src={Jordan2} alt="no-foto" />  
+                </div>
+                <div className="container-add">
+                    <img className="jordan" src={Jordan} alt="no-foto" />
+                </div>
             </div>
+          
+            
+            
+          
         </div>
     )
 }
