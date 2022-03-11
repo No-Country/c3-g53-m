@@ -1,12 +1,12 @@
 import React from "react";
 import "./Cardnews.css";
-import {Nav} from "../Nav/Nav";
-import Footer from "../Footer/Footer";
+import HeaderNews from "../HeaderNews/HeaderNews";
 
 export function Cardnews() {
     return (
       <>
-       <Nav /> 
+       <HeaderNews/> 
+       <h1>Noticias</h1>
       <div class="container">
         <div class="card">
           <div class="card-header">
@@ -43,9 +43,8 @@ export function Cardnews() {
               Stephen Curry arrasa con el Allstar
             </h4>        
         </div>
-        
+            
       </div>
-      <Footer />
       </>
     )
 }

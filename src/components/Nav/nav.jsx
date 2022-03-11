@@ -23,8 +23,7 @@ export function Nav() {
             y disfruta del contenido exclusivo para socios</p>
         </div>
       </div>    
-  </>
-  
+  </>  
   );
 };
 
