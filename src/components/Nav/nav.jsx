@@ -1,20 +1,18 @@
 import "./nav.css";
 import navWall from "./images/nbabanner.jpg"
-
-import {  Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export function Nav() {
-  return (
-    
+  return (    
   <>
     <nav id="hamnav">
       <label for="hamburger">&#9776;</label>
       <input type="checkbox" id="hamburger"/>
       <div id="hamitems">
+        <Link to="/" className="title">BasketProject🏀</Link>
+        <Link to="/noticias">Noticias</Link>
         <a href="#equipos">Equipos</a>
         <a href="#jugadores">Jugadores</a>
-        <Link to="/noticias">Noticias</Link>
-        <a href="#contacto">Contacto</a>
       </div>
     </nav>
       <div className="container-news-nav">
@@ -24,9 +22,8 @@ export function Nav() {
           <p>Encuentra todas las noticias sobre la NBA
             y disfruta del contenido exclusivo para socios</p>
         </div>
-      </div>
-  </>
-  
+      </div>    
+  </>  
   );
 };
 

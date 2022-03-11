@@ -37,7 +37,7 @@ const Board = () => {
     }, []);
   
     return (
-      <div className="wrapper">
+      <div className="wrapper"  id="equipos" >
       <h2>Franquicias NBA 2021-2022
         <input type="text" 
         value={search} 

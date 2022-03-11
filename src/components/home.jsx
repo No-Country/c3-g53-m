@@ -1,8 +1,6 @@
 import React from "react";
-import { Cardnews } from "./Cardnews/Cardnews";
-import {Nav} from "./Nav/nav.jsx"
+import {Nav} from "./Nav/Nav.jsx"
 import Board from "./Board/Board.jsx"
-
 import {Cardsplayer} from "./cardsSkills/cardsSkills"
 import {NewsFeaturesAdvertising} from "./newsFeaturesAdvertising/newsFeaturesAdvertising.jsx"
 import "./home.css"
@@ -13,8 +11,7 @@ export function Home() {
         <div className="caja">
             <Nav />
             <NewsFeaturesAdvertising />
-            <Board />
-         
+            <Board />         
             <Cardsplayer />
             <Footer />
         </div>
