@@ -8,6 +8,10 @@ import { SignUp } from "./components/Back/SignUp/SignUp.jsx"
 import { HomeAdmin } from "./components/Back/HomeAdmin/HomeAdmin.jsx"
 import { DataVisual } from "./components/Back/DataVisual/dataVisual.jsx"
 import { AdminNews } from "./components/Back/AdminNews/adminNews.jsx"
+import { AdminAds } from "./components/Back/AdminAds/AdminAds.jsx"
+import { Admin } from "./components/Back/Admin/Admin.jsx"
+// import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -22,6 +26,9 @@ function App() {
           <Route path="/signup" element= {<SignUp />} />
           <Route path="/datavisual" element= {<DataVisual />} />
           <Route path="/adminnews" element= {<AdminNews />} />
+          <Route path="/adminads" element= {<AdminAds />} />
+          <Route path="/admin" element= {<Admin />} />
+
         </Routes>   
       </div>
     </BrowserRouter>
