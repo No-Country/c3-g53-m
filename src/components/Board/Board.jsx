@@ -38,13 +38,14 @@ const Board = () => {
   
     return (
       <div className="wrapper"  id="equipos" >
-      <h2>Franquicias NBA 2021-2022
+      <h2>Franquicias NBA 2021-2022 </h2>
+      <div>
         <input type="text" 
         value={search} 
         className="form-control" 
         onChange={handleSearch} 
         placeholder="Buscar equipo.." />
-      </h2>
+      </div>
       <Table striped bordered hover variant="light">
         <thead>
           <tr>

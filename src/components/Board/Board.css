@@ -23,8 +23,8 @@ td {
 }
 
 input {
-width: 25% !important;
-float: right;
-margin-right: 1rem;
+width: 100% !important;
+float: left;
+margin-left: 4rem;
 padding: 1rem 0;
 }
