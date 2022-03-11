@@ -6,6 +6,7 @@ const Board = () => {
     const apiKey = 'https://skyflocodes.github.io/NBAAPI/NBATEAMS.json';
     const [teams, setTeams] = useState([]);
     const [table, setTable] = useState([]);
+    
     const [search, setSearch] = useState("");
 
     const textValue = (obj) => {

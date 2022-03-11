@@ -1,0 +1,33 @@
+
+export function NewsFeaturesAdvertising() {
+
+    const apiKey = 'https://ligabasketbackend.herokuapp.com/api/advertisements';
+    const [publi, setPubli] = useState([]);
+
+    useEffect(() => {
+        fetch(apiKey)
+        .then((res) => 
+          res.json())
+          .then((data) => {
+          setPubli(data);
+        });
+      }, []);
+
+
+    return(
+        <div className='news-features-advertising'>
+            <div className='last-news'>
+                <SmallNews />
+            </div>
+            <div className="features-advertising">
+                <div className='features'>Aca va el contenido destacado</div>
+                {publi.map((pu, id) => (
+                    <p className="text-dark" key={id}>
+                        <img src={pu.imgUrl} alt="no-foto" />
+                    </p>
+                ))}
+                <div className='advertising'>Aca va la publicidad</div>
+            </div>
+        </div>
+    )
+}
