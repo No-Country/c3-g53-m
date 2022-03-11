@@ -31,6 +31,11 @@ p {
   text-align: left;
 }
 
+.container_text p {
+  background: #272727;
+  color: white
+}
+
 .container_list {
   height: 12rem;
   background: #272727;

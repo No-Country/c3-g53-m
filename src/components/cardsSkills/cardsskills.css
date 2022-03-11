@@ -45,6 +45,7 @@
   font-weight: 700;
   font-family: 'Work Sans', sans-serif;
   background-color: black;
+  color: white
 }
 
 .line-number{
@@ -84,6 +85,7 @@
   align-self: flex-start;
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
+  color: white
 }
 
 
