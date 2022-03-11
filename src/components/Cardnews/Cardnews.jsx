@@ -1,8 +1,41 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./Cardnews.css";
 import HeaderNews from "../HeaderNews/HeaderNews";
 
 export function Cardnews() {
+
+  const apiKey = 'https://ligabasketbackend.herokuapp.com/api/news';
+  const [news, setNews] = useState([]);
+  const [table, setTable] = useState([]);
+  const [search, setSearch] = useState("");
+
+  const textValue = (obj) => {
+    let result = table.filter((team) => {
+      if(news.title.toString().toLowerCase().includes(obj.toLowerCase()) 
+      ){
+        return news;
+      }
+    })
+    setNews(result)
+  }
+   
+  const handleSearch = (e) => {
+    setSearch(e.target.value)
+    textValue(e.target.value)
+  }
+  
+  useEffect(() => {
+    fetch(apiKey)
+    .then((res) => 
+      res.json())
+      .then((data) => {
+      setTable(data);
+      setNews(data);
+    });
+  }, []);
+
+  console.log(news)
+  /*
     return (
       <>
        <HeaderNews/> 
@@ -46,5 +79,5 @@ export function Cardnews() {
             
       </div>
       </>
-    )
+    )*/
 }
